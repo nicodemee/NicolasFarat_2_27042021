@@ -1,181 +1,205 @@
-@font-face {
-    font-family: 'Raleway';
-    src: url('font/Raleway.ttf') format('truetype');
-}
-
-html {
-    font-family: 'Raleway', 'Arial', 'Helvetica', 'sans-serif';
-    '
-
-}
-
-.logo {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    width: 70px;
-    margin-top: 3%;
-}
-
-#Titre1 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 3%;
-}
-
-h1 {
-    font-size: 0.7em;
-    font-weight: 900;
-}
-
-h2 {
-    font-size: 0.55em;
-    margin-top: 0px;
-    margin-bottom: 0%;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    position: absolute;
-    bottom: 92.5%;
-    left: 60%;
-}
-
-nav li {
-    margin-right: 40px;
-    font-size: 0.5em;
-}
-
-nav a {
-    color: #0065FC;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #0065FC;
-}
-
-#searchbox {
-    display: flex;
-    flex-direction: row;
-    margin-top: 0px;
-}
-
-.mylocation {
-    width: 12px;
-    background-color: #f2f2f2;
-    padding: 10px;
-    border-radius: 30% 0% 0% 30%;
-}
-
-.location {
-    padding: 10px;
-    border: hidden;
-    width: 162px;
-}
-
-.submit {
-    background-color: #0065FC;
-    text-align: center;
-    color: white;
-    border: #0065FC;
-    width: 10%;
-    padding: 05px;
-    border-radius: 0% 20% 20% 0%;
-    font-size: 09pt;
-}
-
-#filtres {
-    display: flex;
-    flex-direction: row;
-}
-
-#Titre2 {
-    margin-right: 20px;
-    margin-top: 6px;
-    font-size: 1.2em;
-}
-
-.money_icon {
-    height: 12px;
-    width: 14px;
-    background-color: rgb(224, 235, 253);
-    border-radius: 60% 60% 60% 60%;
-    padding: 10px;
-}
-
-.écono {
-    width: 105px;
-    text-align: right;
-    margin-top: 0px;
-    margin-left: -16px;
-    background-color: transparent;
-    border-left: none;
-    border-color: rgb(224, 235, 253);
-    border-width: 0.5px;
-    border-radius: 10px 40px 40px 10px;
-    margin-right: 20px;
-}
-
-.child_icon {
-    height: 12px;
-    width: 10px;
-    background-color: rgb(224, 235, 253);
-    border-radius: 60% 60% 60% 60%;
-    padding: 10px;
-}
-
-.familial {
-    width: 75px;
-    text-align: right;
-    margin-top: 0px;
-    margin-left: -16px;
-    background-color: transparent;
-    border-left: none;
-    border-color: rgb(224, 235, 253);
-    border-width: 0.5px;
-    border-radius: 10px 40px 40px 10px;
-    margin-right: 20px;
-}
-
-.heart_icon {
-    height: 12px;
-    width: 12px;
-    background-color: rgb(224, 235, 253);
-    border-radius: 60% 60% 60% 60%;
-    padding: 10px;
-}
-
-.romantique {
-    width: 102px;
-    text-align: right;
-    margin-top: 0px;
-    margin-left: -16px;
-    background-color: transparent;
-    border-left: none;
-    border-color: rgb(224, 235, 253);
-    border-width: 0.5px;
-    border-radius: 10px 40px 40px 10px;
-    margin-right: 20px;
-}
-
-.dog_icon {
-    height: 12px;
-    width: 12px;
-    background-color: rgb(224, 235, 253);
-    border-radius: 60% 60% 60% 60%;
-    padding: 10px;
-}
-
-.animaux {
-    width: 140px;
-    text-align: right;
-    margin-top: 0px;
-    margin-left: -16px;
-    background-color: transparent;
-    border-left: none;
-    border-color: rgb(224, 235, 253);
-    border-width: 0.5px;
-    border-radius: 10px 40px 40px 10px;
-}
+                                            @font-face {
+                                                font-family: 'Raleway';
+                                                src: url('font/Raleway.ttf') format('truetype');
+                                                font-family: 'Raleway-Light';
+                                                src: url('font/Raleway-Light.ttf') format('truetype');
+                                                font-family: 'Raleway-SemiBold';
+                                                src: url('font/Raleway-SemiBold.ttf') format('truetype');
+                                                font-family: 'Raleway-Bold';
+                                                src: url('font/Raleway-Bold.ttf') format('truetype');
+                                            }
+                                            
+                                            html {
+                                                font-family: 'Raleway-Thin', 'Arial', 'Helvetica', 'sans-serif';
+                                            }
+                                            
+                                            .logo {
+                                                display: flex;
+                                                flex-direction: row;
+                                                align-items: baseline;
+                                                width: 70px;
+                                                margin-top: 3%;
+                                            }
+                                            
+                                            #Titre1 {
+                                                display: flex;
+                                                flex-direction: column;
+                                                margin-top: 3%;
+                                                font-weight: 100;
+                                            }
+                                            
+                                            h1 {
+                                                font-size: 0.7em;
+                                                font-weight: 750;
+                                            }
+                                            
+                                            h2 {
+                                                font-size: 0.55em;
+                                                margin-top: 0px;
+                                                margin-bottom: 0%;
+                                            }
+                                            
+                                            nav ul {
+                                                list-style-type: none;
+                                                display: flex;
+                                                position: absolute;
+                                                bottom: 92.5%;
+                                                left: 60%;
+                                            }
+                                            
+                                            nav li {
+                                                margin-right: 40px;
+                                                font-size: 0.5em;
+                                                font-weight: 600;
+                                            }
+                                            
+                                            nav a {
+                                                color: #0065FC;
+                                                text-decoration: none;
+                                            }
+                                            
+                                            nav a:hover {
+                                                color: #0065FC;
+                                            }
+                                            
+                                            #searchbox {
+                                                display: flex;
+                                                flex-direction: row;
+                                                margin-top: 0px;
+                                            }
+                                            
+                                            .mylocation {
+                                                width: 12px;
+                                                background-color: #f2f2f2;
+                                                padding: 10px;
+                                                border-radius: 30% 0% 0% 30%;
+                                            }
+                                            
+                                            .location {
+                                                padding: 10px;
+                                                border: hidden;
+                                                width: 162px;
+                                            }
+                                            
+                                            .submit {
+                                                background-color: #0065FC;
+                                                text-align: center;
+                                                color: white;
+                                                border: #0065FC;
+                                                width: 10%;
+                                                padding: 05px;
+                                                border-radius: 0% 20% 20% 0%;
+                                                font-size: 09pt;
+                                            }
+                                            
+                                            #filtres {
+                                                display: flex;
+                                                flex-direction: row;
+                                            }
+                                            
+                                            #Titre2 {
+                                                margin-right: 20px;
+                                                margin-top: 6px;
+                                                font-size: 1.2em;
+                                                font-weight: bold;
+                                            }
+                                            
+                                            .money_icon {
+                                                height: 12px;
+                                                width: 14px;
+                                                background-color: rgb(224, 235, 253);
+                                                border-radius: 60% 60% 60% 60%;
+                                                padding: 10px;
+                                            }
+                                            
+                                            .écono {
+                                                width: 110px;
+                                                text-align: right;
+                                                margin-top: 0px;
+                                                margin-left: -16px;
+                                                background-color: transparent;
+                                                border-left: none;
+                                                border-color: rgb(224, 235, 253);
+                                                border-width: 0.5px;
+                                                border-radius: 10px 40px 40px 10px;
+                                                margin-right: 20px;
+                                                font-weight: bold;
+                                            }
+                                            
+                                            .child_icon {
+                                                height: 12px;
+                                                width: 10px;
+                                                background-color: rgb(224, 235, 253);
+                                                border-radius: 60% 60% 60% 60%;
+                                                padding: 10px;
+                                            }
+                                            
+                                            .familial {
+                                                width: 80px;
+                                                text-align: right;
+                                                margin-top: 0px;
+                                                margin-left: -16px;
+                                                background-color: transparent;
+                                                border-left: none;
+                                                border-color: rgb(224, 235, 253);
+                                                border-width: 0.5px;
+                                                border-radius: 10px 40px 40px 10px;
+                                                margin-right: 20px;
+                                                font-weight: bold;
+                                            }
+                                            
+                                            .heart_icon {
+                                                height: 12px;
+                                                width: 12px;
+                                                background-color: rgb(224, 235, 253);
+                                                border-radius: 60% 60% 60% 60%;
+                                                padding: 10px;
+                                            }
+                                            
+                                            .romantique {
+                                                width: 107px;
+                                                text-align: right;
+                                                margin-top: 0px;
+                                                margin-left: -16px;
+                                                background-color: transparent;
+                                                border-left: none;
+                                                border-color: rgb(224, 235, 253);
+                                                border-width: 0.5px;
+                                                border-radius: 10px 40px 40px 10px;
+                                                margin-right: 20px;
+                                                font-weight: bold;
+                                            }
+                                            
+                                            .dog_icon {
+                                                height: 12px;
+                                                width: 12px;
+                                                background-color: rgb(224, 235, 253);
+                                                border-radius: 60% 60% 60% 60%;
+                                                padding: 10px;
+                                            }
+                                            
+                                            .animaux {
+                                                width: 152px;
+                                                text-align: right;
+                                                margin-top: 0px;
+                                                margin-left: -18px;
+                                                background-color: transparent;
+                                                border-left: none;
+                                                border-color: rgb(224, 235, 253);
+                                                border-width: 0.5px;
+                                                border-radius: 10px 40px 40px 10px;
+                                                font-weight: bold;
+                                            }
+                                            
+                                            .info {
+                                                height: 18px;
+                                                width: 18px;
+                                                border: black;
+                                                border-width: 2px;
+                                            }
+                                            
+                                            .infotexte {
+                                                margin-top: -40px;
+                                                margin-left: 25px;
+                                                font-size: 0.55em;
+                                            }
