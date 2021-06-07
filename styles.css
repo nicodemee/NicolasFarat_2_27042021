@@ -85,3 +85,97 @@ nav a:hover {
     border-radius: 0% 20% 20% 0%;
     font-size: 09pt;
 }
+
+#filtres {
+    display: flex;
+    flex-direction: row;
+}
+
+#Titre2 {
+    margin-right: 20px;
+    margin-top: 6px;
+    font-size: 1.2em;
+}
+
+.money_icon {
+    height: 12px;
+    width: 14px;
+    background-color: rgb(224, 235, 253);
+    border-radius: 60% 60% 60% 60%;
+    padding: 10px;
+}
+
+.écono {
+    width: 105px;
+    text-align: right;
+    margin-top: 0px;
+    margin-left: -16px;
+    background-color: transparent;
+    border-left: none;
+    border-color: rgb(224, 235, 253);
+    border-width: 0.5px;
+    border-radius: 10px 40px 40px 10px;
+    margin-right: 20px;
+}
+
+.child_icon {
+    height: 12px;
+    width: 10px;
+    background-color: rgb(224, 235, 253);
+    border-radius: 60% 60% 60% 60%;
+    padding: 10px;
+}
+
+.familial {
+    width: 75px;
+    text-align: right;
+    margin-top: 0px;
+    margin-left: -16px;
+    background-color: transparent;
+    border-left: none;
+    border-color: rgb(224, 235, 253);
+    border-width: 0.5px;
+    border-radius: 10px 40px 40px 10px;
+    margin-right: 20px;
+}
+
+.heart_icon {
+    height: 12px;
+    width: 12px;
+    background-color: rgb(224, 235, 253);
+    border-radius: 60% 60% 60% 60%;
+    padding: 10px;
+}
+
+.romantique {
+    width: 102px;
+    text-align: right;
+    margin-top: 0px;
+    margin-left: -16px;
+    background-color: transparent;
+    border-left: none;
+    border-color: rgb(224, 235, 253);
+    border-width: 0.5px;
+    border-radius: 10px 40px 40px 10px;
+    margin-right: 20px;
+}
+
+.dog_icon {
+    height: 12px;
+    width: 12px;
+    background-color: rgb(224, 235, 253);
+    border-radius: 60% 60% 60% 60%;
+    padding: 10px;
+}
+
+.animaux {
+    width: 140px;
+    text-align: right;
+    margin-top: 0px;
+    margin-left: -16px;
+    background-color: transparent;
+    border-left: none;
+    border-color: rgb(224, 235, 253);
+    border-width: 0.5px;
+    border-radius: 10px 40px 40px 10px;
+}
