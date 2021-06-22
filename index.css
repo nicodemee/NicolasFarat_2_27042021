@@ -373,3 +373,108 @@ a {
     padding-bottom: 10px;
     margin-top: -10px;
 }
+
+
+/* ---MAIN ACTIVITIES--- */
+
+.activities {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
+    column-gap: 2rem;
+    margin: 4rem 0;
+}
+
+.activities img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.activities a {
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.1s;
+}
+
+.activities h2 {
+    grid-column: 1 / -1;
+}
+
+.activities h3 {
+    margin: 1.2rem 1.5rem;
+}
+
+.activitiesWrap {
+    position: relative;
+    flex: 1;
+}
+
+#Port {
+    grid-column: 1/2;
+    grid-row: 2/7;
+}
+
+#Fort {
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+
+#ParcCalanques {
+    grid-column: 3/4;
+    grid-row: 2/7;
+}
+
+#Dame {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+#Ile {
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+
+#ParcLongchamp {
+    grid-column: 4/5;
+    grid-row: 4/7;
+}
+
+
+/* ---FOOTER--- */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+}
+
+.footer h2 {
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer ul li {
+    margin: 0.4rem 0;
+}
+
+.footerblock {
+    text-align: left;
+}
+
+.footer1 {}
+
+.footer2 {}
+
+.footer2 ul {}
+
+.footer3 {}
