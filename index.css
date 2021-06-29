@@ -547,6 +547,45 @@
             .footerblock {
                 flex-direction: column;
             }
+            .activities {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: auto 12rem 12rem 12rem;
+                row-gap: 2rem;
+            }
+            #Port {
+                grid-row: 2;
+                grid-column: 1;
+            }
+            #Fort {
+                grid-row: 2;
+                grid-column: 2;
+            }
+            #ParcCalanques {
+                grid-row: 3;
+                grid-column: 1;
+            }
+            #Dame {
+                grid-row: 3;
+                grid-column: 2;
+            }
+            #Ile {
+                grid-row: 4;
+                grid-column: 1;
+            }
+            #ParcLongchamp {
+                grid-row: 4;
+                grid-column: 2;
+            }
+        }
+        /* ---RESP FROM 650 TO 1150 --- */
+        
+        @media screen and (min-width: 650px) and (max-width: 1150px) {
+            .MostPopular {
+                grid-row: 1/2;
+                border-radius: 0;
+                grid-template-rows: auto repeat(3, 12rem);
+                grid-template-columns: 1fr;
+            }
         }
         /* ---RESP FROM 1150 --- */
         
