@@ -14,14 +14,13 @@
 
     <!-- HEADER -->
     <header class="header">
-        <img id="logo" src="img/Reservia.svg" class="logo" alt="Logo de Reservia>" />
+        <img class="logo" src="img/Reservia.svg" alt="Logo de Reservia>" />
         <nav>
-            <ul id="menu">
-                <li><a href="#accommodation">Hébergements</a></li>
-                <li><a href="#activities">Activités</a></li>
-                <li><a href="#">S'inscrire</a></li>
-            </ul>
+            <a class="headerNavLink" href="#accommodation" data-active="true">Hébergement</a>
+            <a class="headerNavLink" href="#activities" data-active="false">Activités</a>
         </nav>
+
+        <a class="headersignup" href="#">S'inscrire</a>
     </header>
     <!-- HEADER -->
 
@@ -39,6 +38,8 @@
                 <input type="image" class="mylocation" src="img/location_icon.svg" alt="icon mylocation" />
                 <label for="location"></label><input type="text" class="location" name="location" id="location" placeholder="Marseille, France" />
                 <input type="submit" class="submit" value="Rechercher" />
+                <i class="submiticon fas fa-search"></i>
+
             </div>
         </form>
 
