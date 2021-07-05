@@ -14,6 +14,12 @@
     }
     /* ---HEADER--- */
     
+    .header,
+    .main,
+    .footer {
+        overflow: hidden;
+    }
+    
     .header {
         margin: auto;
         display: grid;
@@ -504,10 +510,16 @@
     /* ---RESP UP TO 650--- */
     
     @media screen and (max-width: 650px) {
+        .header,
+        .main,
+        .footer {
+            max-width: initial;
+        }
         .header {
             grid-template-columns: auto 1fr auto;
             grid-template-areas: "logo . button" "navbar navbar navbar";
             position: relative;
+            max-width: 100%;
         }
         .header nav a {
             display: inline-block;
@@ -528,7 +540,6 @@
         }
         .headerNavLink {
             order: 2;
-            padding-left: 4rem;
         }
         .headerNavLink {
             border-top: none;
@@ -543,6 +554,9 @@
         }
         .header nav a:hover {
             border-top: none;
+        }
+        .location {
+            width: 100%;
         }
         .filters h2 {
             width: 100%;
@@ -617,8 +631,8 @@
         .footer1,
         .footer2,
         .footer3 {
-            margin-left: -90px;
             margin-bottom: 0rem;
+            width: 100%;
         }
         .footer h2 {
             margin-bottom: 0px;
